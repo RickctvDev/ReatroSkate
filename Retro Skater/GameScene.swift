@@ -47,7 +47,7 @@ class GameScene: SKScene {
                 if backgroundsArray.count == 0{
                     background.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMinY(self.frame) + BACKGROUND_BASE_VALUE)
                 }else{
-                    background.position = CGPointMake(, CGRectGetMinY(self.frame) + BACKGROUND_BASE_VALUE)
+                    background.position = CGPointMake(CGRectGetMidY(self.frame), CGRectGetMinY(self.frame) + BACKGROUND_BASE_VALUE)
                 }
                 
                 backgroundsArray.append(background)
